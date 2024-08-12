@@ -1,7 +1,15 @@
+import NavBar from "./Component/NavBar";
+import Main from "./Component/Main";
+import Footer from "./Component/Footer";
+import CryptoList from "./Component/cryptoList";
+
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold text-green-300 underline">
-      Hello world!
-    </h1>
+    <div>
+      <NavBar />
+      <Main />
+      <CryptoList />
+      <Footer />
+    </div>
   );
 }
